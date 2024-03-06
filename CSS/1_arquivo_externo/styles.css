@@ -1,0 +1,11 @@
+:root {
+    --cor-fundo: #171f12;
+    --cor-titulo: #c5c7c4;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-size: 35px;
+    text-align: center;
+    color: var(--cor-titulo)
+}
