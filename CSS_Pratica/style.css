@@ -1,0 +1,37 @@
+body {
+  background-color: #f4f4f0;
+} 
+
+.texto {
+  font-size: 30px; /* tamanho do texto */
+  line-height: 35px; /* entre linhas */
+  color: #479657; /* cor da font3 */
+  font-style: italic; /* estilo da fonte */
+  font-weight: 500; /* largura da font */
+  text-align: rigth; /* alinhamento de texto*/
+  
+}
+.texto a{
+  color: #0058bd;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Courier New;
+}
+
+.borda {  
+  width: 500px;
+  border: 10px solid #008793;
+        /* tamanho tipo cor*/
+  margin: 0 auto;
+  margin-top: 50px;
+      /* top right left buttom */
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+.lista {
+  list-style-position: inside;
+  /* posicao do marcador inside/outside*/
+  list-style-type: circle;
+  /* disc circle square*/
+}
