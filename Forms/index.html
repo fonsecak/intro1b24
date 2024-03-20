@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <form action="">
+        <input type="text" name="usuario" placeholder="Usuário"><br>
+        <input type="password" name="senha" placeholder="Senha">
+        <!-- a tag <br> ela pula linha -->
+        <hr>
+        <input type="radio" name="dia" value="segunda"> Segunda <br>
+        <input type="radio" name="dia" value="terca"> Terça <br>
+        <input type="radio" name="dia" value="quarta" checked> Quarta <br>
+        <input type="radio" name="dia" value="quinta"> Quinta <br>
+        <input type="radio" name="dia" value="sexta"> Sexta <br>
+        <hr>
+        <h2>Está chovendo?</h2>
+        <label for="sim">
+            <input type="radio" name="chuva" value="sim" id="sim"> Sim
+        </label>
+        <!-- for="(id)" o id tem que ser o mesmo do input para atrabuir a escrita. Conseguir clicar no texto e marca ou selecionar-->
+        <label for="nao">
+            <input type="radio" name="chuva" value="nao" id="nao"> Não
+        </label>
+        <hr>
+        <h2>Sabor da pizza</h2>
+        <label for="calabresa">
+            <input type="checkbox" name="sabor" value="calabresa" id="calabresa">Calabresa
+        </label>
+        <label for="frango_cat">
+            <input type="checkbox" name="sabor" value="frango_cat" id="frango_cat">Frango catupiry
+        </label>
+        <label for="lombo">
+            <input type="checkbox" name="sabor" value="lombo" id="lombo">Lombo
+        </label>
+        <label for="mignon">
+            <input type="checkbox" name="sabor" value="mignon" id="mignon">Mignon
+        </label>
+    </form>
+
+</body>
+
+</html>
